@@ -1,0 +1,91 @@
+# =========================
+# Projeto (monorepo) Node.js
+# Backend + Frontend + Mobile
+# =========================
+
+# Dependencias
+**/node_modules/
+**/.pnpm-store/
+**/.npm/
+**/.yarn/
+**/.yarn-cache/
+
+# Build e distribuicao
+**/dist/
+**/build/
+**/out/
+**/.turbo/
+**/.cache/
+**/.parcel-cache/
+**/.eslintcache
+**/*.tsbuildinfo
+
+# Logs
+*.log
+**/logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambiente
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+.env.local
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Backend (Node + Prisma)
+# =========================
+backend/src/generated/
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+backend/prisma/*.db
+backend/prisma/*.db-journal
+
+# =========================
+# Frontend (Next.js / React)
+# =========================
+frontend/.next/
+frontend/.vercel/
+frontend/coverage/
+frontend/.nyc_output/
+
+# =========================
+# Mobile (Expo / React Native)
+# =========================
+mobile/.expo/
+mobile/.expo-shared/
+mobile/.gradle/
+mobile/.kotlin/
+mobile/.idea/
+mobile/coverage/
+mobile/.nyc_output/
+mobile/web-build/
+
+# Arquivos locais nativos gerados
+mobile/android/local.properties
+mobile/android/.gradle/
+mobile/android/app/build/
+mobile/ios/Pods/
+mobile/ios/build/
+mobile/ios/.xcode.env.local
+
+# Artefatos de release mobile
+*.apk
+*.aab
+*.ipa

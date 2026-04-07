@@ -1,0 +1,30 @@
+import { Request, Response } from "express";
+import { CreateProductService } from "../../services/product/CreateProductService";
+
+class CreateProductController {
+    async handle(req: Request, res: Response) {
+
+        const { name, price, description, category_id } = req.body
+        const user_id = req.user_id
+
+        if (!req.file) {
+            throw new Error("A imagem do produto é obrigatória")
+        }
+
+        const createProduct = new CreateProductService()
+
+        const product = await createProduct.execute({
+            name: name,
+            price: parseInt(price),
+            description: description,
+            category_id: category_id,
+            user_id: user_id,
+            imageBuffer: req.file.buffer,
+            imageName: req.file.originalname
+        })
+
+        res.json(product)
+    }
+}
+
+export { CreateProductController }
