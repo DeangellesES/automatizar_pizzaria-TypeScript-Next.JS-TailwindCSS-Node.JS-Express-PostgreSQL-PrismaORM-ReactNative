@@ -25,6 +25,7 @@
   <li>Finalizar pedidos</li>
   <li>Apagar categoria</li>
   <li>Apagar produtos</li>
+  <li>Sistema de registros e logins</li>
 </ul>
 
 <h2>⚙️ Detalhes Técnicos</h2>
