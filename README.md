@@ -11,7 +11,7 @@
 <ul>
   <li><b>CSS</b> - TailwindCSS</li>
   <li><b>JavaScript</b> - NextJS - TypeScript - NodeJS - Vite</li>
-  <li><b>PostgreSQL</b> - PismaORM - </li>
+  <li><b>PostgreSQL</b> - PismaORM </li>
 </ul>
 
 <h2>✨ Funcionalidades</h2>
