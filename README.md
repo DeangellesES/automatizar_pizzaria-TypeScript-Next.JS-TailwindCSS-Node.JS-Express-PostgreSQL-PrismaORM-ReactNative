@@ -10,14 +10,21 @@
 <h2>🚀 Tecnologias Utilizadas</h2>
 <ul>
   <li><b>CSS</b> - TailwindCSS</li>
-  <li><b>JavaScript</b> - ReactJS - TypeScript - NodeJS - Vite</li>
-  <li><b>MongoDB</b></li>
+  <li><b>JavaScript</b> - NextJS - TypeScript - NodeJS - Vite</li>
+  <li><b>PostgreSQL</b> - PismaORM - </li>
 </ul>
 
 <h2>✨ Funcionalidades</h2>
 <ul>
-  <li>Salvar temporada, epsódio e tempo de séries, animes, filmes e documentários de onde você parou de assistir</li>
-  <li>Adicionar nomes, tipos e capas</li>
+
+  <li>Adicionar mesa do cliente com seus pedidos por aplicativo pelo Garçom</li>
+  <li>Receber pedidos pelo sistema da cozinha</li>
+  <li>Adicionar Categorias de alimentos e bebidas de acordo com os estabelecimentos</li>
+  <li>Adicionar os alimentos e bebidas de acordo com as Categorias</li>
+  <li>Atualizar pedidos</li>
+  <li>Finalizar pedidos</li>
+  <li>Apagar categoria</li>
+  <li>Apagar produtos</li>
 </ul>
 
 <h2>⚙️ Detalhes Técnicos</h2>
