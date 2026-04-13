@@ -10,8 +10,9 @@
 <h2>🚀 Tecnologias Utilizadas</h2>
 <ul>
   <li><b>CSS</b> - TailwindCSS</li>
-  <li><b>JavaScript</b> - NextJS - TypeScript - NodeJS - Vite</li>
+  <li><b>JavaScript</b> - NextJS - TypeScript - NodeJS </li>
   <li><b>PostgreSQL</b> - PismaORM </li>
+  <li><b>ReactNative</b>- expo go </li>
 </ul>
 
 <h2>✨ Funcionalidades</h2>
@@ -40,5 +41,10 @@
   <li>CRUD para adicionar, ler, editar e exluir dados no banco de dados</li>
   <li>PrismaORM para conexão com o Banco de Dados PostgeSQL</li>
   <li>cloudnary e multer para adicionar e persistir imagens no banco de dados</li>
-  <li></li>
+  <li>componets pronto do shadcn UI</li>
+  <li>Sistemas de redirecionamentos, tanto para logar quanto para logado</li>
+  <li>expo go para a construção do aplicativo mobile</li>
+  <li>stylesheet para estilização do mobile</li>
+  <li>sistema de redirecionamento para o aplicativo tambem</li>
+  <li>sistema de registro e login tanto para o sistema para a cozinha quanto para o aplicativo</li>
 </ul>
