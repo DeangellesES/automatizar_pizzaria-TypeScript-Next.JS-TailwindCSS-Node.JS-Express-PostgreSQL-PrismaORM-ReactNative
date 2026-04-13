@@ -47,4 +47,6 @@
   <li>stylesheet para estilização do mobile</li>
   <li>sistema de redirecionamento para o aplicativo tambem</li>
   <li>sistema de registro e login tanto para o sistema para a cozinha quanto para o aplicativo</li>
+  <li>pasta /constants/theme.ts para usar em todo o projeto</li>
+  <li>formatação de dados que são preços</li>
 </ul>
