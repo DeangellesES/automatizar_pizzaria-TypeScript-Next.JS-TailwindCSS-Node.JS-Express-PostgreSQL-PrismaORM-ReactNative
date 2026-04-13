@@ -30,23 +30,15 @@
 
 <h2>⚙️ Detalhes Técnicos</h2>
 <ul>
-  <li>concurrently utilizado para rodar o front end e back end simultaniamente</li>
+  <li>biblioteca concurrently utilizado para rodar o front end e back end simultaniamente</li>
   <li>tailwindCSS para estilização</li>
-  <li>axios para consumir a API back end que eu criei</li>
-  <li>fiveicon na aba do topo</li>
-  <li>vite para buildar o projeto</li>
-  <li>biblioteca toastify para mensagens na tela com ações tomadas na aplicação</li>
-  <li>icones da biblioteca react icons</li>
-  <li>funcionalidade de auto preencher nomes ao ir digitando da API TMDB</li>
-  <li>funcionalidade de adicionar capas pré selecionadas da API TMDB</li>
-  <li>funcionalidade de diferenciar por tipo</li>
-  <li>funcionalidade de adicionar, ler, editar e excluir items no front end e back  end</li>
-  <li>biblioteca express para a criação da API</li>
-  <li>biblioteca mongoose para concetar a API com o banco de dados não relciona MongoDB</li>
-  <li>nodemon para para manter aplicação rodando em ambiente de desenvolvimento</li>
-  <li>.env para configuração de informações sensíveis</li>
-  <li>API no padrão REST</li>
-  <li>API tratando todos os dados antes de manipular os dados no banco de dados</li>
-  <li>API tratando todos os dados antes de mandar para o front end</li>
-  <li>MongoDB Atlas para não ter a necessidade de instalar o mongoDB na máquina</li>
+  <li>.env para informações sensíveis</li>
+  <li>.gitignore na raiz do projeto</li>
+  <li>imagem na aba do site</li>
+  <li>express para criação da API RestFull</li>
+  <li>cors utilizado</li>
+  <li>CRUD para adicionar, ler, editar e exluir dados no banco de dados</li>
+  <li>PrismaORM para conexão com o Banco de Dados PostgeSQL</li>
+  <li>cloudnary e multer para adicionar e persistir imagens no banco de dados</li>
+  <li></li>
 </ul>
