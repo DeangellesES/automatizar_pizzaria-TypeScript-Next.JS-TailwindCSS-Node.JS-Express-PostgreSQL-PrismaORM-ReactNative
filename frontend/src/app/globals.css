@@ -6,9 +6,7 @@
 
 @theme {
   /* 🍕 Cores Customizadas do Projeto - SujeitoPizza */
-  --color-brand-primary: oklch(
-    0.62 0.25 12
-  ); /* #FF3F4B - Vermelho da pizzaria */
+  --color-brand-primary: red; /* #FF3F4B - Vermelho da pizzaria */
   --color-brand-primary-foreground: oklch(
     1 0 0
   ); /* Branco para texto sobre brand */
